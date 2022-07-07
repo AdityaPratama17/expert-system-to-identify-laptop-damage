@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.jumbotron{
+    /* background-image: url("<?= BASEURL;?>"./img/1.jpg); */
+    background-image: url(../img/3.jpg);
+    background-size: cover;
+}
+
+.display-4 {
+    font-size: 50px;
+    margin-top: -15px;
+}
+
+.jumbotron .btn {
+    border-radius: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.card-body-icon {
+    position: absolute;
+    z-index: 0;
+    top: -23px;
+    right: 15px;
+    opacity: 0.4;
+    font-size: 120px;
+}
